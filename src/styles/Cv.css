@@ -22,4 +22,6 @@
 .experience {
   padding-left: 3em;
   border-bottom: 1px solid gray;
+  max-width: 30em;
+  word-wrap: wrap;
 }
