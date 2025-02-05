@@ -1,6 +1,8 @@
 .cv-body {
   margin: 1em;
-  width: 60%;
+  font-size: 120%;
+  box-shadow: 4px 4px 8px rgb(74, 74, 88);
+  padding: 5px;
 }
 
 .cv-header {
@@ -16,7 +18,8 @@
   font-size: 1.1em;
 }
 
-.education {
+.education,
+.experience {
   padding-left: 3em;
   border-bottom: 1px solid gray;
 }

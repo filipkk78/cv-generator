@@ -1,20 +1,20 @@
 import "../styles/Forms.css";
 
-function General() {
+function General({ handler }) {
   return (
     <>
       <form className="formCard">
         <label htmlFor="fullName">
           Full name
-          <input type="text" name="fullName" />
+          <input type="text" name="name" onChange={handler} />
         </label>
         <label htmlFor="email">
           Email
-          <input type="email" name="email" />
+          <input type="email" name="email" onChange={handler} />
         </label>
         <label htmlFor="phone">
           Phone Number
-          <input type="tel" name="phone" />
+          <input type="tel" name="phone" onChange={handler} />
         </label>
       </form>
     </>
