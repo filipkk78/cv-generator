@@ -1,0 +1,22 @@
+.cv-body {
+  margin: 1em;
+  width: 60%;
+}
+
+.cv-header {
+  background-color: #3bb9d8;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1em;
+}
+
+.education {
+  padding-left: 3em;
+  border-bottom: 1px solid gray;
+}

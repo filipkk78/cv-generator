@@ -1,0 +1,21 @@
+.formCard {
+  color: white;
+  width: 80%;
+  display: grid;
+  background-color: rgb(12, 12, 12);
+  padding: 5px;
+  border-radius: 10px;
+  gap: 10px;
+  font-size: 0.9em;
+}
+
+.formCard input,
+.formCard textarea {
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.formCard label {
+  display: grid;
+}
