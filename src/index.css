@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  height: 100vh;
+  width: 100vw;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto-regular-webfont.woff2") format("woff2"),
+    url("fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Roboto";
+}
+
+.wrapper {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template: 1fr 10fr 1fr / 1fr 3fr;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(56, 31, 168);
+}
+
+footer {
+  grid-area: 3 / 1 / 4 / 3;
+}
+
+header {
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+aside {
+  grid-area: 2 / 1 / 3 / 2;
+  background-color: rgb(75, 75, 77);
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
